@@ -42,8 +42,7 @@ while True:
         print("Tipo de imóvel inválido.")
 
     resposta = input(
-        "Deseja refazer a classificação de consumo? (Sim ou não): "
-    ).strip().lower()
+        "Deseja refazer a classificação de consumo? (Sim ou não): ").strip().lower()
 
     if resposta == "sim" or resposta == "s":
         continue
